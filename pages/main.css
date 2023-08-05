@@ -1,2 +1,6 @@
 @import "abstracts/_variables.css";
 @import "pages/_home.css";
+
+body{
+  background-color: grey;
+}
