@@ -1,2 +1,7 @@
 @import "abstracts/_variables.css";
 @import "myblog/main/pages/_home.css";
+
+
+body{
+  background-color: #5643fa;
+  {
