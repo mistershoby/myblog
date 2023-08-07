@@ -78,7 +78,7 @@ p:last-of-type {
 .card_followme {
   position: fixed;
   right: 1.3rem;
-  background-image: url(/brench.webp);
+  background-image: url(brench.webp);
 }
 
 .brench_title {
