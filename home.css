@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial;
+
+  background-image: linear-gradient(
+    199deg,
+    var(--color-primary-background, 0.8) 0%,
+    var(--color-secondary-background, 0.8) 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+  background: var(--color-primary-leftcolumn);
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.img1 {
+  background-image: linear-gradient(to right, transparent, rgb(210, 231, 220)),
+    url("../2.jpg");
+  background-size: cover;
+  height: 500px;
+  padding: 20px;
+}
+
+.img2 {
+  background-image: linear-gradient(to right, transparent, rgb(210, 231, 220)),
+    url("/hills.jpg");
+  background-size: cover;
+  height: 500px;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: var(--color-primary-card);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card:first-child {
+  font-size: 20px;
+}
+
+p:first-of-type {
+  color: var(--color-primary-paragraphs);
+  font-size: 30px;
+  font-style: italic;
+}
+
+p:last-of-type {
+  color: var(--color-secondary-paragraphs);
+  font-weight: bolder;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card_followme {
+  position: fixed;
+  right: 1.3rem;
+  background-image: url(/brench.webp);
+}
+
+.brench_title {
+  position: relative;
+  height: 100px;
+  width: 200px;
+}
+
+.brench_par {
+  position: absolute;
+}
+
+.card_followme p {
+  font-size: 35px;
+  color: var(--color-tertiary-paragraphs);
+}
+
+article img {
+  height: 100px;
+}
+
+article:nth-child(2) {
+  position: absolute;
+  right: 3rem;
+}

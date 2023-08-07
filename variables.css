@@ -1,0 +1,15 @@
+:root {
+  --color-primary-background: #cbf5e5;
+  --color-secondary-background: #557066;
+
+  --color-primary-paragraphs: #359c59;
+  --color-secondary-paragraphs: #aae226;
+  --color-tertiary-paragraphs: #445349;
+
+  --color-primary-card: #d5ffe4;
+
+  --color-primary-leftcolumn: #a8f5c3;
+
+  --color-primary-footer-color: #e6fcd5;
+  --color-primary-footer-background: #385547;
+}
