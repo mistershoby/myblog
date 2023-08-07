@@ -32,7 +32,7 @@ body {
 
 .img1 {
   background-image: linear-gradient(to right, transparent, rgb(210, 231, 220)),
-    url("../2.jpg");
+    url("2.jpg");
   background-size: cover;
   height: 500px;
   padding: 20px;
@@ -40,7 +40,7 @@ body {
 
 .img2 {
   background-image: linear-gradient(to right, transparent, rgb(210, 231, 220)),
-    url("/hills.jpg");
+    url("hills.jpg");
   background-size: cover;
   height: 500px;
   padding: 20px;
